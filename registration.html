@@ -1,0 +1,72 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>SERC Registrations</title>
+        <style>
+            img{
+                float: left;
+            }
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position:sticky;
+           }
+        li {
+            float: left;
+            position: sticky;
+           }
+        li a {
+             display: block;
+             color: white;
+             text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+             position: sticky;
+             }
+        li a:hover {
+                    background-color: #111;
+                    position: sticky;
+                   }
+        </style>
+    </head>
+    <body>
+        <p><a href=" https://www.iiit.ac.in/ " ><img src="https://www.iiit.ac.in/img/iiit-new.png"  height=100 width=100></a>
+            <a href="https://serc.iiit.ac.in/rdip"><h2 style="text-align-last: right;">RDIP</h2></a></p><br><br><br>
+            <p><ul>
+             <li><a class="active" href="homepage.html">Home</a></li>
+             <li><a href="registration.html">Registration Form</a></li>
+            </ul>
+            <br>
+            <form action="details.html" method="get">
+                &nbsp;&nbsp;&nbsp;<label for="fname">First Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="fname" name="fname"><br><br>
+                &nbsp;&nbsp;&nbsp;<label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" id="email" name="email"><br><br>
+                &nbsp;&nbsp;&nbsp;<label for="phno">Phone Number:</label>&nbsp;
+                <input type="tel" id="phno" name="phno"><br><br>
+                &nbsp;&nbsp;&nbsp;<label for="gender">Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>&nbsp;
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>&nbsp;
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+                &nbsp;&nbsp;<label for="rdip">Reason for RDIP:</label>
+                <input type="checkbox" id="html" name="course" value="html">
+                <label for="html">HTML</label>&nbsp;
+                <input type="checkbox" id="css" name="course" value="css">
+                <label for="css">CSS</label>&nbsp;
+                <input type="checkbox" id="js" name="course" value="js">
+                <label for="js">Javascript</label><br><br>
+                &nbsp;&nbsp;&nbsp;<label for="college">College:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="college" name="college"><br><br>
+                &nbsp;&nbsp;&nbsp;<input type="checkbox" id="check" name="check" value="check">&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="check">I declare above details given by me are true.</label><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+    </body>
+</html>
