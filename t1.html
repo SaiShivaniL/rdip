@@ -1,0 +1,99 @@
+<!doctype html>  
+<html>  
+  
+    <head>  
+        <script src="input.js"></script>
+        <title>A Simple Calculator</title>  
+        <style>  
+            body {    
+    background-color:#fff;    
+    margin: 0px auto;    
+        
+    }    
+    .calbody{    
+     background: #097C9B;    
+     border: 1px solid #ff0;    
+     padding: 10px;    
+     margin-left: 450px;    
+     min-width: 27.4em;    
+     max-width: 27.4em;    
+         
+    }    
+    h1{    
+     text-align: center;    
+     font-size: 40px;    
+     color: #003652;    
+         
+    }    
+       
+    #txt{    
+     text-align: right;    
+     width: 23em;    
+     height: 40px;    
+     font-size: 18px;    
+         
+    }    
+       
+    #txtu{    
+     color: grey;    
+     text-align: right;    
+     width: 27.6em;    
+     height: 35px;    
+     font-size: 15px;    
+         
+    }    
+        
+    button{    
+     background-color: #fff;    
+     width: 80px;    
+     height: 60px;    
+     font-size: 20px;    
+     border: 1px solid #097C9B;   
+    }    
+        
+    button:hover{    
+      background-color: #509CA9;        
+     }    
+        
+    </style>  
+    </head>  
+  
+    <body>  
+        <h1><b>My Calculator</b></h1>  
+        <div class="calbody">  
+            <form name="calculator">  
+                <input id="txtu" name="txtsu" type="text" value="" />  
+                <input id="txt" name="txts" type="text" value="0" />  
+            </form>  
+            <div id="calbutton">  
+                <button id="num1" onclick="one();">1</button>  
+                <button id="num2" onclick="two();">2</button>  
+                <button id="num3" onclick="three();">3</button>  
+                <button id="operationplus" onclick="plus();">+</button>  
+                <button id="absolute" onclick="abs();">abs()</button>  
+                <button id="num4" onclick="four();">4</button>  
+                <button id="num5" onclick="five();">5</button>  
+                <button id="num6" onclick="six();">6</button>  
+                <button id="operationmult" onclick="mul();">*</button>  
+                <button id="operationsqrt" onclick="sqrots();">Sqrt()</button>  
+                <button id="num7" onclick="seven();">7</button>  
+                <button id="num8" onclick="eight();">8</button>  
+                <button id="num9" onclick="nine();">9</button>  
+                <button id="operationminus" onclick="minus();">-</button>  
+                <button id="clr" onclick="clr();">C</button>  
+                <button id="operationperc" onclick="perc();">%</button>  
+                <button id="num0" onclick="zero();">0</button>  
+                <button id="num00" onclick="dobuzero();">00</button>  
+                <button id="operationdivid" onclick="div();">/</button>  
+                <button id="sumbit" onclick="equalsto();">=</button>  
+            </div>  
+        </div>  
+        </body>
+</html>
+
+
+
+
+
+
+

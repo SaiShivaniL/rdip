@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <script src="input.js"></script>
+    <head>
+        <title>Form</title>
+        <style>
+         .te{
+             padding:40px;
+             font-family: serif;
+             font-style: italic;
+         }
+         h1{
+            color:crimson;
+            font-family: serif;
+            font-style: italic;
+            font-size: 40px;
+            padding: 10px;
+         }
+         body{
+             background-color: papayawhip;
+         }
+         
+        </style>
+    </head>
+    <body >
+        <center><h1><b>Registration Form</b></h1></center>
+        <div class="te">
+            <form action="#" name="form" onsubmit="return formValidation();">
+                <label for="name"><b>Name&emsp;&emsp;&emsp;&emsp;:</b></label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email"><b>Email&emsp;&emsp;&emsp;&emsp;:</b></label>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="phone"><b>Phone Number:</b></label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <input type="submit"name="submit" value="submit" >
+            </form>
+        </div>
+    </body>
+</html>

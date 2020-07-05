@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <script src="input.js"></script>
+    <title>checker</title>
+    <head>
+        <style>
+            body{
+                font-family: serif;
+                font-style: italic;
+                background-color: papayawhip;
+            }
+            .f1{
+                font-size: 25px;
+                padding:35px
+            }
+            .f2{
+                font-size: 25px;
+                padding:35px
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>To Check Whether it is palindrome or not!!</h1></center>
+        <div class="f1"><p>Enter the word to check in the below text box and click submit...</p>
+        <form name="form1" onsubmit="palindrome();">
+            <label for="word"><b>Word to check:</b></label>
+            <input type="text" id="word" name="word"><br>
+            <input type="submit" name="submit" value="submit">
+         </form></div>
+         <Center><h1>To check whether the given two strings are ANAGRAM's or not!!</h1></Center>
+         <div class="f2"><p>Enter the 2 words to check in the below text boxes and click on submit...</p>
+         <form name="form2" onsubmit="anagram();">
+            <label for="word1"><b>Word1:</b></label>
+            <input type="text" id="word1" name="word1">&emsp;&emsp;&emsp;&emsp;
+            <label for="word2"><b>Word2:</b></label>
+            <input type="text" id="word2" name="word2"><br>
+            <input type="submit" name="submit" value="submit">
+         </form></div>
+  </body>
+</html>
